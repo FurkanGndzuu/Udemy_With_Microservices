@@ -1,0 +1,10 @@
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\netcoreapp3.1\ServicesShared.csproj.AssemblyReference.cache
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\netcoreapp3.1\ServicesShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\netcoreapp3.1\ServicesShared.AssemblyInfoInputs.cache
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\netcoreapp3.1\ServicesShared.AssemblyInfo.cs
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\netcoreapp3.1\ServicesShared.csproj.CoreCompileInputs.cache
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\bin\Debug\netcoreapp3.1\ServicesShared.deps.json
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\bin\Debug\netcoreapp3.1\ServicesShared.dll
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\bin\Debug\netcoreapp3.1\ServicesShared.pdb
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\netcoreapp3.1\ServicesShared.dll
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\netcoreapp3.1\ServicesShared.pdb

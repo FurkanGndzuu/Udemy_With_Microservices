@@ -1,0 +1,12 @@
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\bin\Debug\net6.0\ServicesShared.deps.json
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\bin\Debug\net6.0\ServicesShared.dll
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\bin\Debug\net6.0\ServicesShared.pdb
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\net6.0\ServicesShared.csproj.AssemblyReference.cache
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\net6.0\ServicesShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\net6.0\ServicesShared.AssemblyInfoInputs.cache
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\net6.0\ServicesShared.AssemblyInfo.cs
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\net6.0\ServicesShared.csproj.CoreCompileInputs.cache
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\net6.0\ServicesShared.dll
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\net6.0\refint\ServicesShared.dll
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\net6.0\ServicesShared.pdb
+C:\Users\furka\OneDrive\Masaüstü\Udemy_With_Microservices\Udemy_With_Microservices\src\shared\ServicesShared\obj\Debug\net6.0\ref\ServicesShared.dll
