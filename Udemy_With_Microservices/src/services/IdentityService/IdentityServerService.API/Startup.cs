@@ -5,6 +5,7 @@
 using IdentityServer4;
 using IdentityServerService.API.Data;
 using IdentityServerService.API.Models;
+using IdentityServerService.API.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -28,6 +29,7 @@ namespace IdentityServerService.API
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddLocalApiAuthentication();
             services.AddControllersWithViews();
 
             services.AddDbContext<ApplicationDbContext>(options =>
@@ -56,6 +58,7 @@ namespace IdentityServerService.API
             // not recommended for production - you need to store your key material somewhere secure
             builder.AddDeveloperSigningCredential();
             builder.AddInMemoryApiResources(Config.ApiResources);
+            builder.AddResourceOwnerValidator<IdentityResourceOwnerPasswordValidator>();
 
             services.AddAuthentication()
                 .AddGoogle(options =>
@@ -82,6 +85,7 @@ namespace IdentityServerService.API
 
             app.UseRouting();
             app.UseIdentityServer();
+            app.UseAuthentication();
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {

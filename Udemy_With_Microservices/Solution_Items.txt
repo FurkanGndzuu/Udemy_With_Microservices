@@ -1,2 +1,3 @@
 Services Ports
-		- Catalog Apý : 5011
+		- Catalog Api : 5011
+		- Identity Api : 5012

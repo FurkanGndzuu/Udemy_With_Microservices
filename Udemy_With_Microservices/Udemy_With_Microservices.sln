@@ -24,6 +24,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityService", "Identity
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerService.API", "src\services\IdentityService\IdentityServerService.API\IdentityServerService.API.csproj", "{B94BC049-B7A9-4A83-8F22-D8AA2D0616BE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStockService", "PhotoStockService", "{7B46B32B-F049-4527-B0AC-A5A857A773F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoStockService.API", "src\services\PhotoStockService\PhotoStockService.API\PhotoStockService.API.csproj", "{FBA90488-C125-47E2-AAC3-4E364B48ADB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +46,10 @@ Global
 		{B94BC049-B7A9-4A83-8F22-D8AA2D0616BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B94BC049-B7A9-4A83-8F22-D8AA2D0616BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B94BC049-B7A9-4A83-8F22-D8AA2D0616BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA90488-C125-47E2-AAC3-4E364B48ADB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA90488-C125-47E2-AAC3-4E364B48ADB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA90488-C125-47E2-AAC3-4E364B48ADB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA90488-C125-47E2-AAC3-4E364B48ADB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +62,8 @@ Global
 		{7B9877D8-2438-4DC4-B34C-31427B99E881} = {09B28F6A-7BB0-460B-B3D1-183C6563C5DF}
 		{1A7FBF93-5DF3-4AEC-A283-EAE2A6A4C862} = {8D6437FA-B2C5-4DFB-B813-737B5FAC70B0}
 		{B94BC049-B7A9-4A83-8F22-D8AA2D0616BE} = {1A7FBF93-5DF3-4AEC-A283-EAE2A6A4C862}
+		{7B46B32B-F049-4527-B0AC-A5A857A773F2} = {8D6437FA-B2C5-4DFB-B813-737B5FAC70B0}
+		{FBA90488-C125-47E2-AAC3-4E364B48ADB7} = {7B46B32B-F049-4527-B0AC-A5A857A773F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3D35D005-79C5-4D6F-AE5E-D9D6FF84082D}
