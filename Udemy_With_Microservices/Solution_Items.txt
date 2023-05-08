@@ -1,3 +1,6 @@
 Services Ports
 		- Catalog Api : 5011
 		- Identity Api : 5012
+		- Photo Stock Api 5013
+		- Basket Api 5014
+		- Discount Api 5015

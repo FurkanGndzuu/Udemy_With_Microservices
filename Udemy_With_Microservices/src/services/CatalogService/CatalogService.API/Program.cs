@@ -17,6 +17,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     options.Authority = builder.Configuration["IdentityReturnUrl"];
     options.Audience = "resource_catalog";
     options.RequireHttpsMetadata = false;
+
 });
 
 

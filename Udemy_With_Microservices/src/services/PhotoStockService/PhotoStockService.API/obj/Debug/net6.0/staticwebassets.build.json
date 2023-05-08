@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jzS9cI6aBamiDwDtQldxi05o62YOKHITZZAGsUmHtAg=",
+  "Hash": "VEQnUN91tv/i4FrVb3bVSFeKmlSD5AtGGBDp25Td1MQ=",
   "Source": "PhotoStockService.API",
   "BasePath": "_content/PhotoStockService.API",
   "Mode": "Default",
@@ -15,23 +15,5 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [
-    {
-      "Identity": "C:\\Users\\furka\\OneDrive\\Masaüstü\\Udemy_With_Microservices\\Udemy_With_Microservices\\src\\services\\PhotoStockService\\PhotoStockService.API\\wwwroot\\photos\\ab.jpg",
-      "SourceId": "PhotoStockService.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\furka\\OneDrive\\Masaüstü\\Udemy_With_Microservices\\Udemy_With_Microservices\\src\\services\\PhotoStockService\\PhotoStockService.API\\wwwroot\\",
-      "BasePath": "_content/PhotoStockService.API",
-      "RelativePath": "photos/ab.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\photos\\ab.jpg"
-    }
-  ]
+  "Assets": []
 }
