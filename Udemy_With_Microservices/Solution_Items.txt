@@ -4,3 +4,7 @@ Services Ports
 		- Photo Stock Api 5013
 		- Basket Api 5014
 		- Discount Api 5015
+		- Order Api 5016
+		- Payment Api 5017
+Gateway Ports 
+	- Gateway Api 5000

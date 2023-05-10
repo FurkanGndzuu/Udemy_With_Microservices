@@ -17,6 +17,9 @@ namespace IdentityServerService.API
                new ApiResource("resource_photo_stock"){Scopes={"photo_stock_fullpermission"}},
                 new ApiResource("resource_basket"){Scopes={"basket_fullpermission"}},
                 new ApiResource("resource_discount"){Scopes={"discount_fullpermission"}},
+                new ApiResource("resource_order"){Scopes = {"order_fullpermission"}},
+                new ApiResource("resource_payment"){Scopes = {"payment_fullpermission"}},
+                new ApiResource("resource_gateway"){Scopes = {"gateway_fullpermission"}},
                new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
                
        };
@@ -36,6 +39,9 @@ namespace IdentityServerService.API
                new ApiScope("photo_stock_fullpermission","Photo Stock Access"),
                new ApiScope("basket_fullpermission","Basket Access"),
                new ApiScope("discount_fullpermission","discount access"),
+               new ApiScope("order_fullpermission","order access"),
+               new ApiScope("payment_fullpermission","payment access"),
+               new ApiScope("gateway_fullpermission","gateway access"),
                new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
@@ -48,7 +54,8 @@ namespace IdentityServerService.API
                     ClientId="WebMvcClient",
                     ClientSecrets= {new Secret("secret".Sha256())},
                     AllowedGrantTypes= GrantTypes.ClientCredentials,
-                    AllowedScopes={ "catalog_fullpermission","photo_stock_fullpermission", IdentityServerConstants.LocalApi.ScopeName }
+                    AllowedScopes={ "catalog_fullpermission","photo_stock_fullpermission",
+                         "gateway_fullpermission", IdentityServerConstants.LocalApi.ScopeName }
                 },
 
                    new Client
@@ -60,6 +67,8 @@ namespace IdentityServerService.API
                     AllowedGrantTypes= GrantTypes.ResourceOwnerPassword,
                     AllowedScopes={ "basket_fullpermission",
                            "discount_fullpermission",
+                           "order_fullpermission",
+                           "payment_fullpermission","gateway_fullpermission",
                            IdentityServerConstants.StandardScopes.Email,
                            IdentityServerConstants.StandardScopes.OpenId,
                            IdentityServerConstants.StandardScopes.Profile,
