@@ -1,5 +1,7 @@
 ﻿using ClientForWeb.Abstractions;
 using ClientForWeb.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ClientForWeb.Controllers
@@ -39,6 +41,13 @@ namespace ClientForWeb.Controllers
             }
 
             return RedirectToAction(nameof(Index), "Home");
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            await _identityService.RevokeRefreshToken();
+            return RedirectToAction(nameof(HomeController.Index), "Home");
         }
     }
 }

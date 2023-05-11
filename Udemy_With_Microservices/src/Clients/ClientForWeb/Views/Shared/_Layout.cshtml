@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" style="padding:0px 40px 0px 40px">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ClientForWeb</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -29,7 +29,20 @@
 
                      @if (User.Identity.IsAuthenticated)
                     {
-                     
+                        <ul class="navbar-nav" style="padding:0px 40px 0px 40px">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    @User.Identity.Name
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" asp-controller="User" asp-action="Index">Profil</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Order" asp-action="CheckoutHistory">Ödeme geçmişim</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Basket" asp-action="Index">Sepet</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Auth" asp-action="LogOut">Çıkış</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     }
 
                     else
