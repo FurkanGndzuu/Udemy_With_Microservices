@@ -2,6 +2,7 @@ using ClientForWeb.Abstractions;
 using ClientForWeb.Configurations;
 using ClientForWeb.Extensions;
 using ClientForWeb.Handlers;
+using ClientForWeb.Helpers;
 using ClientForWeb.Services;
 using IdentityModel;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -9,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using ServicesShared.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddSingleton<PhotoHelper>();
+
 builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection("ClientSettings"));
 builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection("ServiceApiSettings"));
 
@@ -25,7 +28,7 @@ builder.Services.AddHttpClientServices(builder.Configuration);
 
 
 
-builder.Services.AddHttpClient<IIdentityService, IdentityService>();
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

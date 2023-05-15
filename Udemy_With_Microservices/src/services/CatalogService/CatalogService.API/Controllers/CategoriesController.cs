@@ -31,9 +31,9 @@ namespace CatalogService.API.Controllers
         public async Task<IActionResult> CreateCategory(CreateCategoryDTO createCategory) => 
             CreateActionResultInstance(await _categoryService.CreateCategoryAsync(createCategory));
 
-        [HttpDelete]
+        [HttpDelete("{Id}")]
 
-        public async Task<IActionResult> DeleteCategory(string Id) =>
+        public async Task<IActionResult> DeleteCategory([FromRoute]string Id) =>
            CreateActionResultInstance(await _categoryService.DeleteCategoryById(Id));
     }
 }

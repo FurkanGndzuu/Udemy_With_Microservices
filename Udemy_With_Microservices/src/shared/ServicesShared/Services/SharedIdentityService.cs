@@ -17,7 +17,7 @@ namespace ServicesShared.Services
 
         public string UserId { get
             {
-                return _httpContextAccessor.HttpContext.User.Claims.Where(x => x.Type == "sub").FirstOrDefault().Value;
+                return _httpContextAccessor.HttpContext.User.Claims.Where(x => x.Type == "sub").FirstOrDefault().Value.Split(' ')[1];
             } }
     }
 }

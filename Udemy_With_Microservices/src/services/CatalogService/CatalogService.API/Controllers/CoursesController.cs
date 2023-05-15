@@ -26,8 +26,12 @@ namespace CatalogService.API.Controllers
         [HttpGet("{userId}")]
         public async Task<IActionResult> GteCoursesById(string userId) =>
             CreateActionResultInstance(await _courseService.GetCoursesByUserIdAsync(userId));
-        [HttpPost]
-        public async Task<IActionResult> CreateCourse(CreateCourseDTO createCourse) =>
+
+
+
+
+        [HttpPost("save")]
+        public async Task<IActionResult> CreateCourse([FromBody]CreateCourseDTO createCourse) =>
             CreateActionResultInstance(await _courseService.CreateCourseAsync(createCourse));
         [HttpDelete("{Id}")]
         public async Task<IActionResult> Delete(string Id) =>
