@@ -4,6 +4,8 @@ using ClientForWeb.Extensions;
 using ClientForWeb.Handlers;
 using ClientForWeb.Helpers;
 using ClientForWeb.Services;
+using ClientForWeb.Validators;
+using FluentValidation.AspNetCore;
 using IdentityModel;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.Extensions.DependencyInjection.Extensions;
@@ -31,7 +33,7 @@ builder.Services.AddHttpClientServices(builder.Configuration);
 
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CourseCreateInputValidator>());
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, opts =>
 {

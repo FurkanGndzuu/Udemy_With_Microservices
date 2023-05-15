@@ -39,6 +39,17 @@ namespace ClientForWeb.Extensions
                 opt.BaseAddress = new Uri($"{serviceApiSettings.GatewayUrl}{serviceApiSettings?.PhotoPath}");
             }).AddHttpMessageHandler<ClientCreadentialTokenHandler>();
 
+           // services.AddHttpClient<IBasketService, BasketService>(opt =>
+           // {
+           //     opt.BaseAddress = new Uri($"{serviceApiSettings.GatewayUrl}{serviceApiSettings.BasketPath}");
+           // }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+           //services.AddHttpClient<IDiscountService, DiscountService>(opt =>{
+           //     opt.BaseAddress = new Uri($"{serviceApiSettings.GatewayUrl}{serviceApiSettings.DiscountPath}");
+           // }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+        
+
 
         }
         }

@@ -7,5 +7,7 @@
         public string PhotoStockUrl { get; set; }
         public string CatalogPath { get; set; }
         public string PhotoPath { get; set; }
+        public string DiscountPath { get; set; }
+        public string BasketPath { get; set; }
     }
 }
