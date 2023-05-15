@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PaymentService.API.DTOs;
 using ServicesShared;
 
 namespace PaymentService.API.Controllers
@@ -9,7 +10,7 @@ namespace PaymentService.API.Controllers
     public class PaymentsController : BasesController
     {
         [HttpPost]
-        public IActionResult ReceivePayment()
+        public IActionResult ReceivePayment(PaymentDTO paymentInfo)
         {
             return CreateActionResultInstance(Response<NoContent>.Success(StatusCodes.Status200OK));
         }

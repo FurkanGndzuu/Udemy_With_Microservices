@@ -1,9 +1,10 @@
-﻿using ClientForWeb.Models;
+﻿using ClientForWeb.Abstractions;
+using ClientForWeb.Models;
 using ServicesShared;
 
 namespace ClientForWeb.Services
 {
-    public class DiscountService
+    public class DiscountService : IDiscountService
     {
         private readonly HttpClient _httpClient;
 

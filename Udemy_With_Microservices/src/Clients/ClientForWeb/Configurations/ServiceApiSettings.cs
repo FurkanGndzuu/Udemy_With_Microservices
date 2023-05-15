@@ -9,5 +9,7 @@
         public string PhotoPath { get; set; }
         public string DiscountPath { get; set; }
         public string BasketPath { get; set; }
+        public string FakePaymentPath { get; set; }
+        public string OrderPath { get; set; }
     }
 }

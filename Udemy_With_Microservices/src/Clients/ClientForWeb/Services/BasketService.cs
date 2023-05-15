@@ -4,7 +4,7 @@ using ServicesShared;
 
 namespace ClientForWeb.Services
 {
-    public class BasketService
+    public class BasketService : IBasketService
     {
         private readonly HttpClient _httpClient;
         private readonly IDiscountService _discountService;
